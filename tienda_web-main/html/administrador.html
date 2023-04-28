@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/edicion.css">
+    <script src="https://kit.fontawesome.com/3bea28c56e.js" crossorigin="anonymous"></script>
+    <script src="../js/app.js" defer></script>
+    <title>Admnistrador</title>
+
+
+</head>
+<body>
+
+ <!--CABECERA-->
+ <nav class="menu">
+    <input type="checkbox" id="check">
+   <label for="check" class="checkbtn">
+     <i class="fas fa-bars"></i>
+   </label>
+      <a class="logoSitio" href="../index.html">
+          <img src="../img/logoProimagen.svg" alt="">
+      </a>
+      <ul class="menu_items show" id="otroModo">
+        
+      <li><a href="html/edicion.html">Productos</a></li>
+      <li><a href="html/davines.html">Eventos</a></li>
+      <li class="active"><a href="html/contacto.html">Contactanos</a></li>
+      
+  </ul>
+  </nav>
+
+  <!--BARRA BUSCADORA-->
+
+  <input type="text" placeholder="buscar">
+
+
+  <!--FILTRO-->
+  
+
+<div class="filter">
+    <div>
+        <img src="../img/filter.png" alt="" onclick="filtro()">
+
+    </div>
+    
+
+    <div class="agregar">
+        <a href="">
+            <i class="far fa-plus-square"></i>
+            Agregar Producto</a>
+    </div>
+  </div>
+
+  <div class="filtro" id="despleFiltro">
+    <div class="alfabetico">
+      <h3>Alfabetico</h3>
+<input  type="radio" name="alfa" id="ascendente" > <label for="estetica">Ascendente</label> <br>
+
+<input  type="radio" name="alfa" id="descendente" > <label for="escuela">Descendente</label> <br>
+    </div>
+
+    <div class="marcaFiltro">
+      <h3>Marca</h3>
+<input  type="radio" name="marca" id="Davines" > <label for="Davines">Davines</label> <br>
+<input  type="radio" name="marca" id="Abril-nature" > <label for="Abril-nature">Abril-nature</label> <br>
+<input  type="radio" name="marca" id="Hasaki" > <label for="Hasaki">Hasaki</label> <br>
+    </div>
+
+    <div class="categoria">
+      <h3>Categoria</h3>
+<input  type="radio" name="categoria" id="Color" > <label for="Color">Color</label> <br>
+<input  type="radio" name="categoria" id="Tratamiento" > <label for="Tratamiento">Tratamiento</label> <br>
+<input  type="radio" name="categoria" id="Peinados" > <label for="Peinados">Peinados</label> <br>
+    </div>
+
+  </div>
+
+
+<!--Productos y usuarios-->
+    
+    <div class="lista">
+
+        <div class="contenedor">
+            <div class="producto">
+                <div class="imagen">
+                    <img src="../img/will.jpg" alt="">
+                </div>
+                <div class="datos">
+                    <h2>Nombre del Producto</h2>
+                    <p>Presentacion</p>
+                    <p>Marca</p>
+                    <p>Tipo</p>
+                    <p>Descripcion</p> 
+                </div>
+            </div>
+        
+            <div class="botones">
+                <button class="btn-crud">
+                    <i class="fas fa-edit"></i>
+                    Editar</button>
+                <button class="btn-crud">
+                    <i class="fas fa-trash-alt"></i>
+                    Borrar</button>
+            </div>
+        </div>
+    
+        <div class="contenedor">
+            <div class="producto">
+                <div class="imagen">
+                    <img src="../img/will.jpg" alt="">
+                </div>
+                <div class="datos">
+                    <h2>Nombre del Producto</h2>
+                    <p>Presentacion</p>
+                    <p>Marca</p>
+                    <p>Tipo</p>
+                    <p>Descripcion</p> 
+                </div>
+            </div>
+        
+            <div class="botones">
+                <button class="btn-crud">
+                    <i class="fas fa-edit"></i>
+                    Editar</button>
+                <button class="btn-crud">
+                    <i class="fas fa-trash-alt"></i>
+                    Borrar</button>
+            </div>
+        </div>
+    
+        <div class="contenedor">
+            <div class="producto">
+                <div class="imagen">
+                    <img src="../img/will.jpg" alt="">
+                </div>
+                <div class="datos">
+                    <h2>Nombre del Producto</h2>
+                    <p>Presentacion</p>
+                    <p>Marca</p>
+                    <p>Tipo</p>
+                    <p>Descripcion</p> 
+                </div>
+            </div>
+        
+            <div class="botones">
+                <button class="btn-crud">
+                    <i class="fas fa-edit"></i>
+                    Editar</button>
+                <button class="btn-crud">
+                    <i class="fas fa-trash-alt"></i>
+                    Borrar</button>
+            </div>
+        </div>
+    
+        <div class="contenedor">
+            <div class="producto">
+                <div class="imagen">
+                    <img src="../img/will.jpg" alt="">
+                </div>
+                <div class="datos">
+                    <h2>Nombre del Producto</h2>
+                    <p>Presentacion</p>
+                    <p>Marca</p>
+                    <p>Tipo</p>
+                    <p>Descripcion</p> 
+                </div>
+            </div>
+        
+            <div class="botones">
+                
+                <button class="btn-crud">
+                    <i class="fas fa-edit"></i>
+                    Modificar
+                </button>
+                <button class="btn-crud">
+                    <i class="fas fa-trash-alt"></i>
+                    Eliminar</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

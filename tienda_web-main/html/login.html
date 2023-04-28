@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formularios.css">
+    <title>Inicio de sesion</title>
+</head>
+<body>
+    
+<!--CABECERA-->
+<nav class="menu">
+    <a class="logoSitio" href="../index.html">
+        <img src="../img/logoProimagen.svg" alt="">
+    </a>
+    <ul class="menu_items" id="otroModo">
+    <li><a href="#">Abril-Nature</a></li>
+    <li><a href="html/davines.html">Davines</a></li>
+    <li><a href="#">Hasaki</a></li>
+    <li><a href="#">Sobre Nosotros</a></li>
+    <li class="active"><a href="html/contacto.html">Contactanos</a></li>
+</ul>
+    <span class="btn_menu" onclick=showmenu()>
+        <i class="fa fa-bars"></i>
+    </span>
+</nav>
+
+
+<!--Login-->
+
+<form action="">
+    <h2>Inicio de Sesion</h2>
+    <Label class="texto" for="nombre">Nombre de usuario</Label>
+    <input type="text" name="nombre" placeholder="Nombre completo">
+
+    <Label class="texto" for="contrasena">Contraseña</Label>
+    <input type="password" name="contrsena" placeholder="Contraseña">
+
+    <a href="#">Olvide mi contraseña</a>
+
+    <input type="submit" value="ENVIAR" id="boton">
+
+
+</form>
+
+</body>
+</html>

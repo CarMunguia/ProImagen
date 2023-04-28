@@ -1,0 +1,108 @@
+*,*:before, *:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F1F1;
+    font-family: 'Roboto';
+}
+
+/*---------*/
+/*FILTRO*/
+/*---------*/
+.filtro{
+    display: none;
+     flex-direction: row; /* Ordena las cajas por filas*/
+     flex-wrap: wrap; /* Cuando no quepan las filas las manda hacia abajo*/
+     justify-content: flex-start; /* Centra las filas*/
+     margin: 0 0 20px 50px;
+  }
+  .filter img{
+    display: block;
+    width: 50px;
+    margin: 20px 0 20px 30px;
+  }
+  
+  .alfabetico{
+    width: 150px;
+  margin-bottom: 20px;
+  }
+  
+  .marcaFiltro{
+    width: 150px;
+  margin-bottom: 20px;
+  }
+  
+  .categoria{
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+
+/*///////////////////*/
+/*RESULTADOS BUSQUEDA*/
+/*///////////////////*/
+
+.resultados{
+        display: flex;
+        flex-direction: row; /* Ordena las cajas por filas*/
+        flex-wrap: wrap; /* Cuando no quepan las filas las manda hacia abajo*/
+        justify-content: center; /* Centra las filas*/
+        align-items: center;    
+}
+
+
+.producto{
+width: 500px;
+height: 200px;
+background-color: white;
+border: 1px solid rgb(170, 156, 156);
+display: flex;
+flex-direction: row; /* Ordena las cajas por filas*/
+justify-content: center; /* Centra las filas*/
+align-items: center;  
+margin: 20px 10px;
+border-radius: 15px;
+}
+
+.imagen{
+width: 40%;
+height: 180px;
+margin: 10px;
+padding: 5px;
+background-color: white;
+/*background-image: url('../img/producto1.jpg');
+background-size: cover;
+background-position: center; */
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.imagen img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+@supports(object-fit: cover){
+    .imagen img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
+.datos{
+width: 50%;
+height: 180px;
+}
+
+.datos h2{
+    padding: 10px 0;
+}
+
+
+

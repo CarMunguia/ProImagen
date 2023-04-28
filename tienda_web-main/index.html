@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/3bea28c56e.js" crossorigin="anonymous"></script>
+    <script src="js/app.js" defer></script>
+
+    <title>Pro Imagen</title>
+</head>
+<body>
+    <!--CABECERA-->
+    <nav class="menu">
+        <input type="checkbox" id="check">
+       <label for="check" class="checkbtn">
+         <i class="fas fa-bars"></i>
+       </label>
+          <a class="logoSitio" href="#">
+              <img src="img/logoProimagen.svg" alt="">
+          </a>
+          <ul class="menu_items show" id="otroModo">
+          <li><a href="html/davines.html">Abril-Nature</a></li>
+          <li><a href="html/davines.html">Davines</a></li>
+          <li><a href="html/davines.html">Hasaki</a></li>
+          <li><a href="#somos">Sobre Nosotros</a></li>
+          <li class="active"><a href="html/contacto.html">Contactanos</a></li>
+      </ul>
+      </nav>
+
+
+    <!--Deslizador -->
+
+    <div class="deslizador">
+        <div class="mislider fade">
+            <img src="img/Cartel01.png" alt="">
+        </div>
+        <div class="mislider fade">
+            <img src="img/Cartel02.png" alt="">
+        </div>
+        <div class="mislider fade">
+            <img src="img/Cartel03.png" alt="">
+        </div>
+        <div class="direcciones">
+            <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+            <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="barras">
+            <span class="barra active" onclick="posicionSlide(1)"></span>
+            <span class="barra" onclick="posicionSlide(2)"></span>
+            <span class="barra" onclick="posicionSlide(3)"></span>
+        </div>
+    </div>
+
+    
+
+    <!-- MARCAS-->
+    
+    
+    <div class="marcas">
+        
+    
+    <div class="blancoRec" id="primero">
+        
+            <div class="contenedor">
+                <div class="davines"> 
+                    <img src="img/davines.png" alt="">
+                    <a href="html/davines.html">
+                        <h3 id="titulo" >Ver productos</h3>
+                    </a>
+                </div>
+                <div class="iconosRedes">
+                    <i class="fab fa-facebook" id="redes"></i>
+                    <i class="fas fa-globe" id="redes"></i>
+                </div>
+            </div>
+            
+    </div>
+
+    <div class="blancoRec" id="segundo">
+        
+        <div class="contenedor">
+            <div class="davines"> 
+                <img src="img/hasaki.png" alt="">
+                <a href="html/davines.html">
+                    <h3 id="titulo" >Ver productos</h3>
+                </a>
+            </div>
+            <div class="iconosRedes">
+                <i class="fab fa-facebook" id="redes"></i>
+                <i class="fas fa-globe" id="redes"></i>
+            </div>
+        </div>
+        
+</div>
+
+<div class="blancoRec" id="tercero">
+        
+    <div class="contenedor">
+        <div class="davines"> 
+            <img src="img/abril-nature.png" alt="">
+            <a href="html/davines.html">
+                <h3 id="titulo" >Ver productos</h3>
+            </a>
+        </div>
+        <div class="iconosRedes">
+            <i class="fab fa-facebook" id="redes"></i>
+            <i class="fas fa-globe" id="redes"></i>
+        </div>
+    </div>
+    
+</div>
+
+    </div>
+
+    <!-- SOBRE NOSOTROS-->
+
+
+
+      <!-- Quienes somos-->
+<div id="somos">
+    <div class="somos">
+
+        <div class="somosFondo">
+            <h3>¿quienes somos?</h3>
+            <p>
+                El 11 de Agosto de 2004 iniciamos operaciones. Somos una empresa dedicada a la comercialización y distribución de productos y herramienta para estéticas. <br>
+            </p>
+
+            <p>
+                Somos importadores y distribuimos a nivel nacional de las marcas abril et nature, Nutricell y Hasaki, en Michoacán somos distribuidores de Davines. <br>
+            </p>
+
+            <p>
+Contamos con una gran variedad de productos como son  tintes, oxidantes, decolorantes, tratamientos capilares, productos de peinado, secadoras de cabello, planchas de cabello, máquinas de corte, delineadoras,  tijeras, entre otros.
+            </p>
+        </div>
+
+    </div>
+</div>
+      
+    
+    
+
+    <div class="misionVison" id="mision">
+
+        <div class="mision">
+            <div class="misionImagen">
+               <img src="img/mision.jpg" alt=""> 
+            </div>
+            <div class="misionTexto">
+                <h2>Mision</h2>
+        <p>Ofrecer a nuestros clientes productos profesionales para estética de alta calidad y capacitación técnica con un excelente servicio al cliente e innovación en los productos.
+            <br>
+            Ofrecer a los estilistas productos y servicios que satisfagan sus necesidades de calidad en sus insumos, servicio al cliente y educación.
+            </p>
+            </div>
+        </div>
+
+        <div class="vision" id="vision">
+            <div class="visionTexto">
+                <h2>Vision</h2>
+                <p>Ser una empresa líder en la venta de productos profesionales, asesorías y soluciones para los estilistas, distinguiéndonos por un servicio profesional y alta calidad en productos y servicios</p>
+            </div>
+            <div class="visionImagen">
+                <img src="img/vision.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+<div class="espacioAzul">
+    
+</div>
+
+    <footer>
+        <div class="pieMarcas">
+            <h4>Marcas</h4>
+            <ul>
+            <li><a href="html/davines.html">Abril-Nature</a></li>
+            <li><a href="html/davines.html">Hasaki</a></li>
+            <li><a href="html/davines.html">Davines</a></li>
+            </ul>
+        </div>
+
+        <div class="pieContacto">
+            <h4>Contacto</h4>
+            <ul>
+                <li><a href="html/contacto.html">Formulario de contacto</a></li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-phone-square-alt"></i>
+                        443310251</li>
+                    </a>
+                <li>
+<a href="#">
+    <i class="fas fa-envelope"></i>
+    proImagen@gmail.com
+ </li>
+</a>
+                    
+
+                </ul> 
+        </div>
+
+        <div class="pieNosotros">
+            <h4>Sobre Nosotros</h4>
+            <ul>
+                <li><a href="#somos">¿Quines somos?</a></li>
+                <li><a href="#mision">Mision</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#">Valores</a></li>
+                <li><a href="#">Politica de privacidad</a></li>
+            </ul>
+        </div>
+        
+    </footer>
+
+    
+    <
+
+</body>
+</html>

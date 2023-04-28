@@ -1,0 +1,150 @@
+*,*:before, *:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F1F1;
+    font-family: 'Roboto';
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    
+}
+
+h2{
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="tel"], input[type="file"]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    
+}
+
+input[type="radio"]{
+    color: blue;
+    margin-bottom: 20px;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+    justify-content: center;
+}
+
+
+#boton{
+    display: block;
+   background-color: black;
+   color: white;
+   padding: 12px 45px;
+   border-radius: 10px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+
+
+form a{
+    display: block;
+    color: #1566a7;
+    text-align: center;
+    margin: 15px;
+}
+
+.eleccion{
+justify-content: center;
+margin: 5px 0 5px 0;
+}
+
+
+@media (max-width:480px){
+    form{
+        width: 90%;
+    }
+}
+
+
+/*---------*/
+/*CABECERA*/
+/*---------*/
+
+.menu{
+    background-color: white;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+
+}
+
+.logoSitio img {
+    width: 200px;
+}
+
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu_items li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    color: black;
+}
+
+.menu_items li:hover, li.active{
+    background-color:  black;
+    color: white;
+    transition: .4s;
+}
+
+li.active a{
+    color: white;
+
+}
+
+li:hover a{
+    color: white;
+}
+
+
+
+.btn_menu{
+margin-right: 30px;
+font-size: 25px;
+cursor: pointer;
+display: none;
+}
+
+ul .show{
+    top: 60px;
+}

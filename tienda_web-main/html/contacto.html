@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formularios.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+    <title>Formulario</title>
+</head>
+<body>
+
+       <!--CABECERA-->
+       <nav class="menu">
+        <a class="logoSitio" href="../index.html">
+            <img src="../img/logoProimagen.svg" alt="">
+        </a>
+        <ul class="menu_items" id="otroModo">
+        <li><a href="#">Abril-Nature</a></li>
+        <li><a href="html/davines.html">Davines</a></li>
+        <li><a href="#">Hasaki</a></li>
+        <li><a href="#">Sobre Nosotros</a></li>
+        <li class="active"><a href="html/contacto.html">Contactanos</a></li>
+    </ul>
+        <span class="btn_menu" onclick=showmenu()>
+            <i class="fa fa-bars"></i>
+        </span>
+    </nav>
+
+
+    <!--FORMULARIO-->
+
+    <form action="">
+        <h2>Contacto</h2>
+        <Label class="texto" for="nombre">Nombre del representante</Label>
+        <input type="text" name="nombre" placeholder="Nombre completo">
+
+        <Label class="texto" for="negocio">Nombre del negocio</Label>
+        <input type="text" name="negocio" placeholder="Nombre negocio">
+
+        <div class="eleccion">
+    <p class="seleccion" >Tipo de negocio:</p>
+    <input class="seleccion" type="radio" name="tipoNegocio" id="estetica" > <label for="estetica">Estetica</label>
+    <input class="seleccion" type="radio" name="tipoNegocio" id="escuela" > <label for="escuela">Escuela</label>
+</div>
+       
+
+        <Label class="texto" for="telefono">Numero de telefono</Label>
+        <input type="text" name="telefono" placeholder="Telefono">
+
+        <Label class="texto" for="direccion">Direccion</Label>
+        <input type="text" name="direccion" placeholder="Direccion del negocio">
+
+        <Label class="texto" for="correo">Correo electronico</Label>
+        <input type="text" name="correo" placeholder="micorreo@dominio.com">
+
+        <input type="submit" value="ENVIAR" id="boton">
+
+    </form>
+    
+</body>
+</html>

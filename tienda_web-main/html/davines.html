@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/3bea28c56e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/app.js" defer></script>
+    <title>Productos Davines</title>
+</head>
+<body>
+    <!--CABECERA-->
+
+    <nav class="menu">
+        <a class="logoSitio" href="../index.html">
+            <img src="../img/logoProimagen.svg" alt="">
+        </a>
+        <ul class="menu_items" id="otroModo">
+        <li><a href="#">Abril-Nature</a></li>
+        <li><a href="../html/davines.html">Davines</a></li>
+        <li><a href="#">Hasaki</a></li>
+        <li><a href="#">Sobre Nosotros</a></li>
+        <li class="active"><a href="html/contacto.html">Contactanos</a></li>
+    </ul>
+        <span class="btn_menu" onclick=showmenu()>
+            <i class="fa fa-bars"></i>
+        </span>
+    </nav>
+
+<!--FILTRO-->
+
+<div class="filter">
+    <img src="../img/filter.png" alt="" onclick="filtro()">
+  </div>
+
+  <div class="filtro" id="despleFiltro">
+    <div class="alfabetico">
+      <h3>Alfabetico</h3>
+<input  type="radio" name="alfa" id="ascendente" > <label for="estetica">Ascendente</label> <br>
+
+<input  type="radio" name="alfa" id="descendente" > <label for="escuela">Descendente</label> <br>
+    </div>
+
+    <div class="marcaFiltro">
+      <h3>Marca</h3>
+<input  type="radio" name="marca" id="Davines" > <label for="Davines">Davines</label> <br>
+<input  type="radio" name="marca" id="Abril-nature" > <label for="Abril-nature">Abril-nature</label> <br>
+<input  type="radio" name="marca" id="Hasaki" > <label for="Hasaki">Hasaki</label> <br>
+    </div>
+
+    <div class="categoria">
+      <h3>Categoria</h3>
+<input  type="radio" name="categoria" id="Color" > <label for="Color">Color</label> <br>
+<input  type="radio" name="categoria" id="Tratamiento" > <label for="Tratamiento">Tratamiento</label> <br>
+<input  type="radio" name="categoria" id="Peinados" > <label for="Peinados">Peinados</label> <br>
+    </div>
+
+  </div>
+
+
+<!--RESULTADOS-->
+    <div class="resultados">
+        <div class="producto">
+            <div class="imagen">
+                <img src="../img/producto1.jpg" alt="">
+            </div>
+            <div class="datos">
+                <h2>Nombre del Producto</h2>
+                <p>Presentacion</p>
+                <p>Marca</p>
+                <p>Tipo</p>
+                <p>Descripcion</p>
+            </div>
+        </div>
+            
+
+        <div class="producto">
+            <div class="imagen">
+                <img src="../img/producto2.jpg" alt="">
+            </div>
+            <div class="datos">
+                <h2>Nombre del Producto</h2>
+                <p>Presentacion</p>
+                <p>Marca</p>
+                <p>Tipo</p>
+                <p>Descripcion</p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <div class="imagen">
+                <img src="../img/producto2.jpg" alt="">
+            </div>
+            <div class="datos">
+                <h2>Nombre del Producto</h2>
+                <p>Presentacion</p>
+                <p>Marca</p>
+                <p>Tipo</p>
+                <p>Descripcion</p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <div class="imagen">
+                <img src="../img/producto2.jpg" alt="">
+            </div>
+            <div class="datos">
+                <h2>Nombre del Producto</h2>
+                <p>Presentacion</p>
+                <p>Marca</p>
+                <p>Tipo</p>
+                <p>Descripcion</p>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+</body>
+</html>

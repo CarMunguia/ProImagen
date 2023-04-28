@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formularios.css">
+    <title>Crear usuario</title>
+</head>
+<body>
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+        <h2>Creacion de Nuevo usuario</h2>
+
+        <Label class="texto" for="nombreUsario">Nombre de Usuario</Label>
+        <input type="text" name="nombreUsuario" placeholder="Nickname">
+
+        <Label class="texto" for="nombre Completo">Nombre completo</Label>
+        <input type="text" name="nombreCompleto" placeholder="Nombre Apellidos">
+
+        <Label class="texto" for="telefono">Telefono</Label>
+        <input type="tel" name="telefono" placeholder="">
+
+        <Label class="texto" for="imagenPerfil">Foto de Usuario</Label>
+        <input type="file" name="imagenPerfil">
+
+
+        <Label class="texto" for="contrasena1">Contraseña</Label>
+        <input type="password" name="contrasena1" placeholder="Ingresa contraseña">
+
+        <Label class="texto" for="contrasena2">Contraseña</Label>
+        <input type="password" name="contrasena2" placeholder="Reingresa contraseña">
+
+        
+
+        <input type="button" value="ENVIAR" id="boton">
+
+    </form>
+</body>
+</html>
